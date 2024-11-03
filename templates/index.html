@@ -1,0 +1,16 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="{{ url_for('home.static', filename='css/styles.css') }}">
+    <link rel="icon" href="{{ url_for('home.static', filename='favicon.png') }}" type="image/x-icon" />
+</head>
+<body>
+    <div id="hello">Hello World</div>
+    <h4>{{ data }}</h4>
+    <script src="{{ url_for('home.static', filename='js/functions.js') }}"></script>
+</body>
+</html>
