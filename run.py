@@ -6,7 +6,7 @@ from app.services.stocksService import StocksService
 # python3 -m venv myenv
 # source myenv/bin/activate # on MacOS
 # source myenv/Scripts/activate # on Windows
-# pip install flask requests apscheduler
+# pip install -r requirements.txt
 # python3 run.py
 # Once finished, simply desactivate the virtual environment using "deactivate"
 

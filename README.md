@@ -5,7 +5,7 @@ Small app to show stocks
 
 1. First install the required packages
 
-Python3, logging, argparse, requests, datetime
+Python3
 
 ````
 python3 -m venv myenv
